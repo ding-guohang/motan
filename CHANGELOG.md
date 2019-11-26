@@ -1,5 +1,41 @@
 # Change Log
 
+## [1.1.6](https://github.com/weibocom/motan/tree/1.1.6) (2019-07-04)
+[Full Changelog](https://github.com/weibocom/motan/compare/1.1.5...1.1.6)
+
+**Implemented enhancements:**
+
+- add trace tag in request&response [\#836](https://github.com/weibocom/motan/pull/836) ([sunnights](https://github.com/sunnights))
+- support custom slow threshold [\#836](https://github.com/weibocom/motan/pull/836) ([sunnights](https://github.com/sunnights))
+
+**Fixed bugs:**
+
+- remove request exception stacktrace in transport-netty4 [\#836](https://github.com/weibocom/motan/pull/836) ([sunnights](https://github.com/sunnights))
+
+## [1.1.5](https://github.com/weibocom/motan/tree/1.1.5) (2019-05-16)
+[Full Changelog](https://github.com/weibocom/motan/compare/1.1.4...1.1.5)
+
+**Implemented enhancements:**
+
+- decouple attachments for request & response [\#827](https://github.com/weibocom/motan/pull/827) ([sunnights](https://github.com/sunnights))
+- optimize getChannel in SharedPoolClient [\#827](https://github.com/weibocom/motan/pull/827) ([sunnights](https://github.com/sunnights))
+
+**Fixed bugs:**
+
+- fix #829, available check in transport-netty [\#827](https://github.com/weibocom/motan/pull/827) ([sunnights](https://github.com/sunnights))
+
+## [1.1.4](https://github.com/weibocom/motan/tree/1.1.4) (2018-12-18)
+[Full Changelog](https://github.com/weibocom/motan/compare/1.1.3...1.1.4)
+
+**Implemented enhancements:**
+
+- add Content-Length header & fix #812 [\#816](https://github.com/weibocom/motan/pull/816) ([sunnights](https://github.com/sunnights))
+
+**Fixed bugs:**
+
+- fix dependency conflict issue [\#802](https://github.com/weibocom/motan/pull/802) ([HelloCoCooo](https://github.com/HelloCoCooo))
+- fix dependency conflict issue [\#815](https://github.com/weibocom/motan/pull/815) ([HelloCoCooo](https://github.com/HelloCoCooo))
+
 ## [1.1.3](https://github.com/weibocom/motan/tree/1.1.3) (2018-12-24)
 [Full Changelog](https://github.com/weibocom/motan/compare/1.1.2...1.1.3)
 
